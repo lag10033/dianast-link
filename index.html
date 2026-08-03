@@ -19,8 +19,8 @@
   --coal-2:#221D18;
   --cream:#F4EDE3;         /* тёплый крем */
   --cream-2:#EFE5D6;
-  --brick:#C1440E;         /* фирменный кирпичный DIANAST */
-  --brick-hot:#E05512;
+  --brick:#87300A;         /* фирменный кирпичный DIANAST */
+  --brick-hot:#9D3B0D;
   --ink:#241E19;
   --sand:#B9A896;          /* приглушённый на тёмном */
   --line-l:#E2D5C2;
@@ -88,11 +88,11 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .hero .sub{font-size:15px;color:rgba(244,237,227,.85);max-width:34ch;margin-bottom:20px}
 .cta{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;
   background:var(--brick);color:#fff;font-weight:700;font-size:16.5px;
-  padding:17px 20px;border-radius:14px;box-shadow:0 12px 30px rgba(193,68,14,.45);
+  padding:17px 20px;border-radius:14px;box-shadow:0 12px 30px rgba(135,48,10,.45);
   transition:transform .16s ease,background .16s ease;animation:pulse 3.2s ease-in-out infinite}
 .cta:hover{background:var(--brick-hot)}
 .cta:active{transform:scale(.97)}
-@keyframes pulse{0%,100%{box-shadow:0 12px 30px rgba(193,68,14,.45)}50%{box-shadow:0 12px 42px rgba(224,85,18,.7)}}
+@keyframes pulse{0%,100%{box-shadow:0 12px 30px rgba(135,48,10,.45)}50%{box-shadow:0 12px 42px rgba(157,59,13,.7)}}
 .hero .trust-line{display:flex;align-items:flex-start;gap:8px;justify-content:center;
   margin-top:13px;font-size:12px;color:rgba(244,237,227,.75);text-align:left;
   max-width:36ch;margin-left:auto;margin-right:auto}
@@ -109,7 +109,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .stat span{font-size:11px;color:var(--sand);letter-spacing:.04em}
 
 /* ═══ ОФФЕР ═══ */
-.offer{background:#872F0A;color:#fff;padding:34px 24px;position:relative;overflow:hidden}
+.offer{background:#5E2107;color:#fff;padding:34px 24px;position:relative;overflow:hidden}
 .offer::before{content:"";position:absolute;inset:0;opacity:.14;
   background-image:
     linear-gradient(rgba(255,255,255,.85) 1px,transparent 1px),
@@ -209,7 +209,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .stp b{display:block;font-size:15px;margin-bottom:3px}
 .stp span{font-size:13px;color:#7A6E60}
 .stp .tag{display:inline-block;margin-left:8px;font-size:10.5px;font-weight:700;
-  color:var(--brick);background:rgba(193,68,14,.1);border-radius:99px;padding:2px 9px;
+  color:var(--brick);background:rgba(135,48,10,.1);border-radius:99px;padding:2px 9px;
   vertical-align:2px;letter-spacing:.04em}
 
 /* ═══ ОТЗЫВЫ ═══ */
@@ -253,7 +253,7 @@ details p{margin-top:9px;font-size:13.5px;color:#7A6E60;line-height:1.6}
   padding:16px 10px;font-weight:700;font-size:14.5px;transition:transform .15s ease}
 .cbtn:active{transform:scale(.97)}
 .cbtn.main{grid-column:1/-1;background:var(--brick);color:#fff;font-size:16px;
-  box-shadow:0 10px 26px rgba(193,68,14,.4)}
+  box-shadow:0 10px 26px rgba(135,48,10,.4)}
 .cbtn.vb{background:#7360F2;color:#fff}
 .cbtn.tg{background:#2AABEE;color:#fff}
 .cbtn.site{grid-column:1/-1;background:transparent;border:1.5px solid var(--line-d);color:var(--cream)}
